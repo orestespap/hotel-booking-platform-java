@@ -1,4 +1,5 @@
-﻿Hotel h1= new Hotel("Asteras Resort",5,2000,5000,600);
+//Default information﻿
+Hotel h1= new Hotel("Asteras Resort",5,2000,5000,600);
 		Hotel h2= new Hotel("Makedonia Palace",20,200,700,100);
 		Hotel h3= new Hotel("Electra Palace",10,250,650,100);
 		Hotel h4= new Hotel("St George",7,300,800,200);
