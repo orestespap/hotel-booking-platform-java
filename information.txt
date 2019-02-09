@@ -1,0 +1,19 @@
+﻿Hotel h1= new Hotel("Asteras Resort",5,2000,5000,600);
+		Hotel h2= new Hotel("Makedonia Palace",20,200,700,100);
+		Hotel h3= new Hotel("Electra Palace",10,250,650,100);
+		Hotel h4= new Hotel("St George",7,300,800,200);
+		Hotel h5= new Hotel("Hilton",3,900,4000,380);
+		Database.addHotel(h1);
+		Database.addHotel(h2);
+		Database.addHotel(h3);
+		Database.addHotel(h4);
+		Database.addHotel(h5);
+		SaveData.SaveHotels();
+
+
+
+Customer c1= new Customer("Orestes","Papanastassiou","orestpap@gmail.com","123");
+Customer c2= new Customer("Dimitris","Paleochorinos","pale@gmail.com","123");
+Database.addCustomer(c1);
+Database.addCustomer(c2);
+SaveData.SaveCustomers();
